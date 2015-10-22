@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title Join the #{community} on Slack! (Click Enter to Send)
+    title Join the #{community} on Slack! 
     style.
       body {
         padding: 50px;
@@ -12,7 +12,7 @@ html
         width: 400px;
       }
   body
-    h1 Join the #{community} community on Slack!
+    h1 Join the #{community} community on Slack! (Click Enter to Send)
     form(method="POST", action="/invite")#join-form
       input(type="text", name="email", placeholder="Enter your email")#slack-email
     script.
